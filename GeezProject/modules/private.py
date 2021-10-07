@@ -51,15 +51,15 @@ Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
                         "➕ Tambahkan saya ke Grup Anda ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
                 [
                     InlineKeyboardButton(
-                        "💬 Channel Updates", url=f"https://t.me/{UPDATES_CHANNEL}"), 
+                        "Channel Batak", url=f"https://t.me/{UPDATES_CHANNEL}"), 
                     InlineKeyboardButton(
-                        "🎈 Group Support", url=f"https://t.me/{SUPPORT_GROUP}")
+                        "Group Batak", url=f"https://t.me/{SUPPORT_GROUP}")
                 ],[
                     InlineKeyboardButton(
-                        "🛠 Source Code 🛠", url=f"https://{SOURCE_CODE}")
+                        "OWNER", url=f"https://{OWNER}")
                 ],[
                     InlineKeyboardButton(
-                        "🎁 Donate", url=f"https://t.me/VckyouuBitch")
+                        "Donate", url=f"https://t.me/Galang109")
                 ]
             ]
         ),
@@ -99,9 +99,9 @@ def map(pos):
         url = f"https://t.me/{SUPPORT_GROUP}"
         button = [
             [InlineKeyboardButton("➕ Tambahkan saya ke Grup Anda ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-            [InlineKeyboardButton(text = '💬 Channel Updates', url=f"https://t.me/{UPDATES_CHANNEL}"),
-             InlineKeyboardButton(text = '🔰 Group Support', url=f"https://t.me/{SUPPORT_GROUP}")],
-            [InlineKeyboardButton(text = '🛠 Source Code 🛠', url=f"https://{SOURCE_CODE}")],
+            [InlineKeyboardButton(text = 'Channel Batak', url=f"https://t.me/{UPDATES_CHANNEL}"),
+             InlineKeyboardButton(text = 'Group Batak', url=f"https://t.me/{SUPPORT_GROUP}")],
+            [InlineKeyboardButton(text = 'OWNER', url=f"https://{OWNER}")],
             [InlineKeyboardButton(text = '«', callback_data = f"help+{pos-1}")]
         ]
     else:
@@ -168,10 +168,10 @@ async def reload(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Group Support", url=f"https://t.me/GeezSupportGroup"
+                        "Group Batak", url=f"https://t.me/Bataks"
                     ),
                     InlineKeyboardButton(
-                        "Created By", url=f"https://t.me/VckyouuBitch"
+                        "Created By", url=f"https://t.me/Galang109"
                     )
                 ]
             ]
