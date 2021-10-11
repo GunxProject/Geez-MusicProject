@@ -56,7 +56,7 @@ Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
                         "Group Batak", url=f"https://t.me/{SUPPORT_GROUP}")
                 ],[
                     InlineKeyboardButton(
-                        "OWNER", url=f"https://galang109")
+                        "OWNER", url=f"https://t.me/galang109")
                 ],[
                     InlineKeyboardButton(
                         "Donate", url=f"https://t.me/Galang109")
